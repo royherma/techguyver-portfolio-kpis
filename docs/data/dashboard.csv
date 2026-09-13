@@ -1,11 +1,11 @@
 Date,Project,Health,Revenue,Costs,Users,Top issue,Next move
-2026-09-13,🐭 Mighty Mouse,🟢 GREEN,0,TBD,4 cust,Updater healthy on GitHub feeds (v0.41.0); portal SPA paths not used,Optional vanity 302 later; keep Windows tester waiting item
-2026-09-13,🎨 Creators of Today,🟢 GREEN,0,TBD,1 cust,Analyze quota ceiling (investigate in-product),Debug quota; wait feedback reply
-2026-09-13,🎸 Cut Jam,🟢 GREEN,0,TBD,2 cust,/pricing still 307→/#pricing 200,Pick one existing-user feedback ask
-2026-09-13,🤖 Robots HQ,🟢 GREEN,0,TBD,278 jobs,Traffic not baselined,Baseline visits + apply clicks
-2026-09-13,🌍 Techno Optimists,🟢 GREEN,0,TBD,10 Challenges,/challenges 404; homepage via API has 10,Pick 1 member feedback ask
-2026-09-12,🐭 Mighty Mouse,🔴 RED,0,TBD,4 cust,App-domain updater SPA fake-200; GitHub v0.41.0 real,Fix Pages routing or confirm GitHub feed
-2026-09-12,🎨 Creators of Today,🟢 GREEN,0,TBD,1 cust,Analyze quota ceiling (investigate in-product),Debug quota; wait feedback reply
-2026-09-12,🎸 Cut Jam,🟢 GREEN,0,TBD,2 cust,/pricing fixed,Pick one existing-user feedback ask
-2026-09-12,🤖 Robots HQ,🟢 GREEN,0,TBD,260 jobs,Traffic not baselined,Baseline visits + apply clicks
-2026-09-12,🌍 Techno Optimists,🟢 GREEN,0,TBD,9 Challenges,Thin engagement,Pick 1 member feedback ask
+2026-09-13,🐭 Mighty Mouse,GREEN,0,TBD,4 cust,Updater healthy on GitHub feeds (v0.41.0); portal SPA paths not used,Optional vanity 302 later; keep Windows tester waiting item
+2026-09-13,🎨 Creators of Today,GREEN,0,TBD,1 cust,Analyze quota ceiling (investigate in-product),Debug quota; wait feedback reply
+2026-09-13,🎸 Cut Jam,GREEN,0,TBD,2 cust,/pricing still 307→/#pricing 200,Pick one existing-user feedback ask
+2026-09-13,🤖 Robots HQ,GREEN,0,TBD,278 jobs,Traffic not baselined,Baseline visits + apply clicks
+2026-09-13,🌍 Techno Optimists,GREEN,0,TBD,10 Challenges,/challenges 404; homepage via API has 10,Pick 1 member feedback ask
+2026-09-12,🐭 Mighty Mouse,RED,0,TBD,4 cust,App-domain updater SPA fake-200; GitHub v0.41.0 real,Fix Pages routing or confirm GitHub feed
+2026-09-12,🎨 Creators of Today,GREEN,0,TBD,1 cust,Analyze quota ceiling (investigate in-product),Debug quota; wait feedback reply
+2026-09-12,🎸 Cut Jam,GREEN,0,TBD,2 cust,/pricing fixed,Pick one existing-user feedback ask
+2026-09-12,🤖 Robots HQ,GREEN,0,TBD,260 jobs,Traffic not baselined,Baseline visits + apply clicks
+2026-09-12,🌍 Techno Optimists,GREEN,0,TBD,9 Challenges,Thin engagement,Pick 1 member feedback ask
