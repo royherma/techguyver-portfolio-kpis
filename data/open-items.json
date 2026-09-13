@@ -1,0 +1,162 @@
+{
+  "updated": "2026-09-13",
+  "items": [
+    {
+      "id": "mm-updater-spa",
+      "project": "Mighty Mouse",
+      "opened": "2026-09-12",
+      "status": "done",
+      "summary": "RESOLVED false-RED: updater uses GitHub latest.yml (v0.41.0). Do not health-check app.getmightymouse.com/latest.yml.",
+      "owner": "Mighty Mouse Ops / Mac",
+      "decision": "resolved_false_positive",
+      "decision_note": "MM Ops 2026-09-13: app uses GitHub releases feed (v0.41.0 real). Portal latest.yml SPA HTML is expected; not a broken updater. Portfolio hard-check switched to GitHub URLs.",
+      "age_days": 1,
+      "closed": "2026-09-13"
+    },
+    {
+      "id": "mm-win32-tester",
+      "project": "Mighty Mouse",
+      "opened": "2026-09-11",
+      "status": "waiting",
+      "summary": "win32 updater.ts fix on dev (dbe78cae). Need Windows tester: zero update_error events.",
+      "owner": "Mighty Mouse Tester",
+      "decision": null,
+      "decision_note": "",
+      "age_days": 2
+    },
+    {
+      "id": "cot-feedback-drafts",
+      "project": "Creators of Today",
+      "opened": "2026-09-11",
+      "status": "done",
+      "summary": "Sent feedback ask to thecrumpeffect@gmail.com (Roy edited+sent).",
+      "owner": "Chief of Staff",
+      "decision": "roy_approved",
+      "decision_note": "Roy sent feedback email to thecrumpeffect@gmail.com 2026-09-12",
+      "age_days": 2,
+      "closed": "2026-09-12"
+    },
+    {
+      "id": "cj-feedback-pick",
+      "project": "Cut Jam",
+      "opened": "2026-09-12",
+      "status": "skipped",
+      "summary": "Pick/approve one existing-user feedback ask (Anika hold dropped - was artifact).",
+      "owner": "Cut Jam",
+      "decision": "roy_skipped",
+      "decision_note": "Roy skipped morning YOUR CALLs 2026-09-13; also no identifiable existing-user email (Mac offline blocked brandId).",
+      "age_days": 1,
+      "closed": "2026-09-13"
+    },
+    {
+      "id": "rhq-traffic-baseline",
+      "project": "Robots HQ",
+      "opened": "2026-09-11",
+      "status": "open",
+      "summary": "Baseline distinct visits / apply clicks for Improving line.",
+      "owner": "Robots HQ",
+      "decision": null,
+      "decision_note": "",
+      "age_days": 2
+    },
+    {
+      "id": "to-member-ask",
+      "project": "Techno Optimists",
+      "opened": "2026-09-12",
+      "status": "open",
+      "summary": "Pick 1 member feedback ask; /challenges route 404 (homepage has 9 Challenges).",
+      "owner": "Techno Optimists",
+      "decision": null,
+      "decision_note": "",
+      "age_days": 1
+    },
+    {
+      "id": "cj-pricing",
+      "project": "Cut Jam",
+      "opened": "2026-09-11",
+      "status": "done",
+      "closed": "2026-09-11",
+      "summary": "/pricing live: 307 \u2192 /#pricing \u2192 200.",
+      "owner": "Cut Jam",
+      "decision": null,
+      "decision_note": "",
+      "age_days": 2
+    },
+    {
+      "id": "cot-skip-greenbeard",
+      "project": "Creators of Today",
+      "opened": "2026-09-11",
+      "closed": "2026-09-12",
+      "status": "skipped",
+      "decision": "roy_skipped",
+      "decision_note": "Roy: bad ask - check quota ourselves, don't email greenbeard117 about hitting the limit",
+      "summary": "Skipped emailing greenbeard117@gmail.com about quota ceiling.",
+      "owner": "Chief of Staff",
+      "age_days": 2
+    },
+    {
+      "id": "cot-quota-investigate",
+      "project": "Creators of Today",
+      "opened": "2026-09-12",
+      "status": "open",
+      "decision": "none",
+      "summary": "Investigate Analyze quota ceiling in-product (greenbeard117 hit it) - our bug, not a feedback email.",
+      "owner": "Creators of Today",
+      "age_days": 1
+    }
+  ],
+  "kpis": {
+    "updated": "2026-09-13",
+    "targets": {
+      "open_items_max": 8,
+      "oldest_open_days_max": 7,
+      "red_health_days_streak_max": 2,
+      "feedback_drafts_unused_max_days": 3,
+      "decisions_pending_roy_max": 3
+    },
+    "current": {
+      "open_count": 5,
+      "waiting_count": 1,
+      "done_last_7d": 2,
+      "skipped_count": 1,
+      "pending_roy_decision": 1,
+      "oldest_open_days": 2,
+      "red_projects_today": 1,
+      "feedback_ready_unused_days": 0,
+      "notes": "MM updater SPA still RED day 2. RHQ open jobs 260\u2192278. TO challenges API 10 (/challenges still 404). Stripe MM4/CoT1/CJ2 all $0 charges."
+    },
+    "cos_score": 96,
+    "penalties": [
+      "red_projects 1"
+    ],
+    "self_improve": {
+      "focus": "red_projects 1",
+      "experiment": "Clear YOUR CALL within 24h; escalate RED by day 2 with named fix owner.",
+      "same_focus_days": 2
+    },
+    "history_path": "/home/box/portfolio-reports/history/daily.jsonl",
+    "delta_vs_yesterday": 0,
+    "red_streak_days": 2
+  },
+  "decision_log": [
+    {
+      "id": "bootstrap-2026-09-12",
+      "date": "2026-09-12",
+      "type": "system",
+      "text": "CoS funnel KPIs + decision states bootstrapped. Roy's calls get logged here (approve / skip / defer)."
+    },
+    {
+      "id": "cot-2026-09-12-split",
+      "date": "2026-09-12",
+      "type": "roy",
+      "text": "Skip greenbeard117 feedback email (investigate quota in-product). Draft/send feedback to thecrumpeffect@gmail.com."
+    },
+    {
+      "id": "cot-sent-2026-09-12",
+      "date": "2026-09-12",
+      "type": "roy",
+      "text": "Sent CoT Analyze feedback email to thecrumpeffect@gmail.com from techguyver1337@gmail.com."
+    }
+  ],
+  "lead": "MM updater false-RED cleared (GitHub feed healthy). Next focus: open gaps / RHQ baseline / TO challenges 404."
+}

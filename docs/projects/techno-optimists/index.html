@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Techno Optimists</title><style>
+:root{--bg:#0b0d10;--ink:#e8edf5;--muted:#9aa7b8;--line:#243041;--green:#3dd68c;--red:#ff6b6b;--yellow:#f5c84c;--card:#161b24}
+*{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(1200px 600px at 10% -10%,#1a2740 0%,transparent 55%),var(--bg);color:var(--ink);line-height:1.45}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px 64px}
+.crumbs{font-size:13px;color:var(--muted);margin-bottom:14px}.crumbs a{color:#9ec1ff;text-decoration:none}.crumbs a:hover{text-decoration:underline}
+h1{margin:0 0 6px;font-size:24px;letter-spacing:-.02em}.meta{color:var(--muted);font-size:13px}
+.lead{background:#141a24;border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin:16px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin:18px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.card header{display:flex;justify-content:space-between;gap:8px;align-items:flex-start;margin-bottom:8px}
+.card h2{margin:0;font-size:15px}.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:6px;background:var(--muted)}
+.card.green .dot{background:var(--green)}.card.red .dot{background:var(--red)}.card.yellow .dot{background:var(--yellow)}
+.pill{font-size:11px;border-radius:999px;padding:2px 8px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.pill.green{color:#9af0c4;border-color:#24553d;background:#12251c}.pill.red{color:#ffb4b4;border-color:#5a2a2a;background:#2a1515}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:8px 0;font-size:13px}.lbl{color:var(--muted);font-size:11px}.val{font-weight:600}
+.issue,.next{font-size:13px;color:#c9d4e5;margin:6px 0}h3{margin:26px 0 10px;font-size:14px;color:#cfe0ff}
+.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:12px}
+table{width:100%;border-collapse:collapse;font-size:12.5px;min-width:820px}th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{background:#141a24;color:#a9bdd8;position:sticky;top:0}footer{margin-top:28px;color:var(--muted);font-size:12px}
+code{background:#0f131a;border:1px solid var(--line);padding:1px 5px;border-radius:5px}a.cardlink{color:inherit;text-decoration:none}a.cardlink:hover .card{border-color:#3a5070}
+.daynav{display:flex;gap:10px;flex-wrap:wrap;margin:10px 0 0}.daynav a{color:#9ec1ff;font-size:13px}
+</style></head>
+<body><main class="wrap"><nav class="crumbs"><a href="../../index.html">Portfolio</a> / Techno Optimists</nav>
+<h1>🌍 Techno Optimists</h1>
+<div class="meta">Latest 2026-09-13</div>
+<section class="lead"><span class="pill green">🟢 GREEN</span>
+ · Rev $0 · Costs TBD · 10 Challenges
+<p class="issue"><strong>Top</strong> /challenges 404; homepage via API has 10</p>
+<p class="next"><strong>Next</strong> Pick 1 member feedback ask</p>
+</section>
+<h3>History</h3>
+<div class="table-wrap"><table><thead><tr><th>Date</th><th>Health</th><th>Rev</th><th>Users</th><th>Top</th><th>Next</th></tr></thead><tbody>
+<tr><td>2026-09-13</td><td><span class='pill green'>🟢 GREEN</span></td><td>0</td><td>10 Challenges</td><td>/challenges 404; homepage via API has 10</td><td>Pick 1 member feedback ask</td></tr><tr><td>2026-09-12</td><td><span class='pill green'>🟢 GREEN</span></td><td>0</td><td>9 Challenges</td><td>Thin engagement</td><td>Pick 1 member feedback ask</td></tr>
+</tbody></table></div>
+
+<footer>Source: append-only <code>data/*.jsonl</code>. Rebuild with <code>python3 scripts/build_viewer.py</code>. Costs TBD (never invent). Google Sheets is not the daily source of truth.</footer>
+</main></body></html>

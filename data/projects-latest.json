@@ -1,0 +1,47 @@
+[
+  {
+    "project": "\ud83d\udc2d Mighty Mouse",
+    "health": "\ud83d\udfe2 GREEN",
+    "revenue": 0,
+    "costs": "TBD",
+    "users": "4 cust",
+    "top": "Updater healthy on GitHub feeds (v0.41.0); portal SPA paths not used",
+    "next": "Optional vanity 302 later; keep Windows tester waiting item"
+  },
+  {
+    "project": "\ud83c\udfa8 Creators of Today",
+    "health": "\ud83d\udfe2 GREEN",
+    "revenue": 0,
+    "costs": "TBD",
+    "users": "1 cust",
+    "top": "Analyze quota ceiling (investigate in-product)",
+    "next": "Debug quota; wait feedback reply"
+  },
+  {
+    "project": "\ud83c\udfb8 Cut Jam",
+    "health": "\ud83d\udfe2 GREEN",
+    "revenue": 0,
+    "costs": "TBD",
+    "users": "2 cust",
+    "top": "/pricing still 307\u2192/#pricing 200",
+    "next": "Pick one existing-user feedback ask"
+  },
+  {
+    "project": "\ud83e\udd16 Robots HQ",
+    "health": "\ud83d\udfe2 GREEN",
+    "revenue": 0,
+    "costs": "TBD",
+    "users": "278 jobs",
+    "top": "Traffic not baselined",
+    "next": "Baseline visits + apply clicks"
+  },
+  {
+    "project": "\ud83c\udf0d Techno Optimists",
+    "health": "\ud83d\udfe2 GREEN",
+    "revenue": 0,
+    "costs": "TBD",
+    "users": "10 Challenges",
+    "top": "/challenges 404; homepage via API has 10",
+    "next": "Pick 1 member feedback ask"
+  }
+]

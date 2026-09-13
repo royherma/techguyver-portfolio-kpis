@@ -1,0 +1,220 @@
+{
+  "latest_date": "2026-09-13",
+  "projects": [
+    {
+      "project": "🐭 Mighty Mouse",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "4 cust",
+      "top": "Updater healthy on GitHub feeds (v0.41.0); portal SPA paths not used",
+      "next": "Optional vanity 302 later; keep Windows tester waiting item"
+    },
+    {
+      "project": "🎨 Creators of Today",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "1 cust",
+      "top": "Analyze quota ceiling (investigate in-product)",
+      "next": "Debug quota; wait feedback reply"
+    },
+    {
+      "project": "🎸 Cut Jam",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "2 cust",
+      "top": "/pricing still 307→/#pricing 200",
+      "next": "Pick one existing-user feedback ask"
+    },
+    {
+      "project": "🤖 Robots HQ",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "278 jobs",
+      "top": "Traffic not baselined",
+      "next": "Baseline visits + apply clicks"
+    },
+    {
+      "project": "🌍 Techno Optimists",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "10 Challenges",
+      "top": "/challenges 404; homepage via API has 10",
+      "next": "Pick 1 member feedback ask"
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-09-12",
+      "project": "🐭 Mighty Mouse",
+      "health": "🔴 RED",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "4 cust",
+      "top": "App-domain updater SPA fake-200; GitHub v0.41.0 real",
+      "next": "Fix Pages routing or confirm GitHub feed"
+    },
+    {
+      "date": "2026-09-12",
+      "project": "🎨 Creators of Today",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "1 cust",
+      "top": "Analyze quota ceiling (investigate in-product)",
+      "next": "Debug quota; wait feedback reply"
+    },
+    {
+      "date": "2026-09-12",
+      "project": "🎸 Cut Jam",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "2 cust",
+      "top": "/pricing fixed",
+      "next": "Pick one existing-user feedback ask"
+    },
+    {
+      "date": "2026-09-12",
+      "project": "🤖 Robots HQ",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "260 jobs",
+      "top": "Traffic not baselined",
+      "next": "Baseline visits + apply clicks"
+    },
+    {
+      "date": "2026-09-12",
+      "project": "🌍 Techno Optimists",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "9 Challenges",
+      "top": "Thin engagement",
+      "next": "Pick 1 member feedback ask"
+    },
+    {
+      "date": "2026-09-13",
+      "project": "🐭 Mighty Mouse",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "4 cust",
+      "top": "Updater healthy on GitHub feeds (v0.41.0); portal SPA paths not used",
+      "next": "Optional vanity 302 later; keep Windows tester waiting item"
+    },
+    {
+      "date": "2026-09-13",
+      "project": "🎨 Creators of Today",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "1 cust",
+      "top": "Analyze quota ceiling (investigate in-product)",
+      "next": "Debug quota; wait feedback reply"
+    },
+    {
+      "date": "2026-09-13",
+      "project": "🎸 Cut Jam",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "2 cust",
+      "top": "/pricing still 307→/#pricing 200",
+      "next": "Pick one existing-user feedback ask"
+    },
+    {
+      "date": "2026-09-13",
+      "project": "🤖 Robots HQ",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "278 jobs",
+      "top": "Traffic not baselined",
+      "next": "Baseline visits + apply clicks"
+    },
+    {
+      "date": "2026-09-13",
+      "project": "🌍 Techno Optimists",
+      "health": "🟢 GREEN",
+      "revenue": 0,
+      "costs": "TBD",
+      "users": "10 Challenges",
+      "top": "/challenges 404; homepage via API has 10",
+      "next": "Pick 1 member feedback ask"
+    }
+  ],
+  "cos_history": [
+    {
+      "date": "2026-09-12",
+      "ts": "2026-09-12T10:06:05.057269+07:00",
+      "cos_score": 96,
+      "penalties": [
+        "red_projects 1"
+      ],
+      "red_streak_days": 1,
+      "metrics": {
+        "open_count": 5,
+        "waiting_count": 1,
+        "done_count": 2,
+        "skipped_count": 1,
+        "pending_roy_decision": 1,
+        "oldest_open_days": 1,
+        "red_projects": 1,
+        "feedback_unused_days": 0,
+        "items_total": 9
+      },
+      "targets": {
+        "open_items_max": 8,
+        "oldest_open_days_max": 7,
+        "red_health_days_streak_max": 2,
+        "feedback_drafts_unused_max_days": 3,
+        "decisions_pending_roy_max": 3
+      },
+      "self_improve": {
+        "focus": "red_projects 1",
+        "experiment": "Clear YOUR CALL within 24h; escalate RED by day 2 with named fix owner.",
+        "same_focus_days": 1
+      },
+      "delta_vs_yesterday": 0
+    },
+    {
+      "date": "2026-09-13",
+      "ts": "2026-09-13T07:14:47.365555+07:00",
+      "cos_score": 96,
+      "penalties": [
+        "red_projects 1"
+      ],
+      "red_streak_days": 2,
+      "metrics": {
+        "open_count": 5,
+        "waiting_count": 1,
+        "done_count": 2,
+        "skipped_count": 1,
+        "pending_roy_decision": 1,
+        "oldest_open_days": 2,
+        "red_projects": 1,
+        "feedback_unused_days": 0,
+        "items_total": 9
+      },
+      "targets": {
+        "open_items_max": 8,
+        "oldest_open_days_max": 7,
+        "red_health_days_streak_max": 2,
+        "feedback_drafts_unused_max_days": 3,
+        "decisions_pending_roy_max": 3
+      },
+      "self_improve": {
+        "focus": "red_projects 1",
+        "experiment": "Clear YOUR CALL within 24h; escalate RED by day 2 with named fix owner.",
+        "same_focus_days": 2
+      },
+      "delta_vs_yesterday": 0
+    }
+  ]
+}
