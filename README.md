@@ -1,3 +1,9 @@
+# Current portfolio source
+
+Live measured KPIs: https://you.techguyverlabs.org/admin-analytics?tab=projects&window=24h . This authenticated view and GrokBot consume `/api/admin/projects`. The JSONL/Pages content below is legacy history, not the current measurement authority. Do not publish private API payloads here.
+
+On Roy's Mac, the deterministic consumer is `node /Users/royhermannn_new/Desktop/Development/techguyver-you/scripts/projects/read.mjs 24h` (optional third argument: project ID). Existing credentials load internally. Daily collection is owned by the existing GrokBot Portfolio daily review via `scripts/projects/daily.mjs` in techguyver-you.
+
 # Techguyver Portfolio KPIs
 
 Lightweight daily portfolio glance. **No Google Sheets.**

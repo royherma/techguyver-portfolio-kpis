@@ -136,6 +136,7 @@ def page(title: str, crumbs, body: str) -> str:
 <title>{esc(title)}</title><style>{CSS}</style>
 </head><body><div class="wrap">
 <nav class="crumbs">{crumb}</nav>
+<div class="cos"><strong>Live KPI reports</strong> <a class="p" href="https://you.techguyverlabs.org/admin-analytics?tab=projects&amp;window=24h">Open authenticated portfolio</a><span class="muted">Shared API measurements · this page is a legacy snapshot, not current KPI evidence.</span></div>
 {body}
 <div class="footer">Source: append-only <code>data/*.jsonl</code> · rebuild <code>python3 scripts/build_viewer.py</code> · push · Pages updates. Costs TBD (never invent).</div>
 </div></body></html>"""
